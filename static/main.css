@@ -1,0 +1,45 @@
+.jumbotron {
+    background-color: #273145;
+    color: white;
+}
+
+.panel {
+    width: 95%;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.proj-name {
+    position: relative;
+    top: 0;
+    float: left;
+    font-weight: 600;
+    font-size: 1.8em;
+}
+
+.proj-icon {
+    height: 2.5em;
+    float: right;
+}
+
+.proj-iconset {
+    position: relative;
+    top: 0;
+    float: right;
+    /*width: 12em;*/
+}
+
+.contact-logo {
+    width: 2em;
+}
+
+.contact-link {
+    font-size: medium;
+}
+
+.contact-link-mail {
+    font-size: medium;
+}

@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% for proj in projects %}
+
+    <div class="panel panel-default ">
+        <div class="panel-heading">
+            <div class="proj-name">
+                {{ proj.name }}
+            </div>
+            <div class="proj-iconset">
+                {% for tech in proj.technologies %}
+                    <img src="{{ icon_path(tech) }}" class="proj-icon">
+                {% endfor %}
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    
+        <div class="panel-body">
+            {% if "website" in proj %}
+            <p>
+                <img src="{{ icon_path('internet') }}" class="contact-logo">
+                <a href="{{ proj['website'] }}" class="project-links"> Website </a>
+            </p>
+            {% endif %}
+            {% if "github" in proj %}
+            <p>
+                <img src="{{ icon_path('github') }}" class="contact-logo">
+                <a href="{{ proj['github'] }}" class="project-links"> GitHub repository </a>
+            </p>
+            {% endif %}
+            <hr>
+            <p class="project-description">
+                {{ proj.description }}
+            </p>
+        </div>
+    </div>
+
+    <br>
+{% endfor %}
+
+{% endblock content %}

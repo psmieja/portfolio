@@ -1,0 +1,26 @@
+[
+    {
+        "name" : "TrenerPJM",
+        "github" : "https://github.com/psmieja/TrenerPJM.git",
+        "website" : "http://pjm.pierrelouis.pl/",
+        "technologies" : ["php", "css", "js", "html"],
+        "description" : "PHP/js web application created for learning Polish Sign Language (PJM). Website is responsive, with separate mobile version. Application uses video resources from (slownikpjm.uw.edu.pl)"
+    },
+    
+    {
+        "name": "AVR Calculator",
+        "github": "https://github.com/psmieja/AVR_Calculator.git",
+        "technologies": [
+            "avr",
+            "c"
+        ],
+        "description": "ATMega8 based simple calculator with four 8-segment displays and a tact switch keyboard. Project made for the microcontroller programming class at my university."
+    },
+
+    {
+        "name": "Tesla Coil (A Team Student Project)",
+        "website": "https://sites.google.com/student.uw.edu.pl/zps-tesla/strona-g%C5%82%C3%B3wna",
+        "technologies": [],
+        "description": "A working Tesla Coil built by our group as a team project at the Faculty of Physics of Warsaw University."
+    }
+]
