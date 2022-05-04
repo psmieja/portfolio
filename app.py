@@ -1,5 +1,4 @@
 from flask import Flask, render_template, url_for
-import sqlalchemy as db
 import json
 
 app = Flask(__name__)
@@ -21,4 +20,4 @@ def home():
     return render_template('projects.html', projects=projects)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
