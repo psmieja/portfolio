@@ -1,9 +1,21 @@
 [
     {
+        "name": "Portfolio website",
+        "github": "https://github.com/psmieja/portfolio",
+        "website": "http://plsmi.pl/",
+        "technologies": [
+            "bootstrap",
+            "python",
+            "flask"
+        ],
+        "description": "Website for displaying personal projects (this one)"
+    },
+    
+    {
         "name" : "TrenerPJM",
         "github" : "https://github.com/psmieja/TrenerPJM.git",
-        "website" : "http://pjm.pierrelouis.pl/",
-        "technologies" : ["php", "css", "js", "html"],
+        "website" : "http://pjm.plsmi.pl/",
+        "technologies" : ["php", "js"],
         "description" : "PHP/js web application created for learning Polish Sign Language (PJM). Website is responsive, with separate mobile version. Application uses video resources from (slownikpjm.uw.edu.pl)"
     },
     
