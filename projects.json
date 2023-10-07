@@ -1,14 +1,5 @@
 [    
     {
-        "name": "(current) RR/PERM for proteins",
-        "github": "https://github.com/psmieja/perm_rust.git",
-        "technologies": [
-            "rust"
-        ],
-        "description": "Implementation of SAW (Self-Avoiding Walk) biased sampling methods (namely Rosenbluth-Rosenbluth and PERM algorithms) for exploration of protein conformation space. If successful, it can help determine stable states of a given peptide chain and evaluate its free energy."
-    },
-
-    {
         "name": "(2023) New potentials for protein modeling",
         "github": "https://github.com/psmieja/svd_cg_potentials.git",
         "technologies": [
